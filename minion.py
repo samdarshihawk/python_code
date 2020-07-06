@@ -25,7 +25,7 @@ Kevin's vowel beginning word = ANA
 Here, ANA occurs twice in BANANA. Hence, Kevin will get 2 Points. 
 '''
 
-# issue with program is that it takes lot of run-time
+# issue with program is that it takes lot of run-time when input string is very large
 
 
 
