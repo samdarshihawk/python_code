@@ -52,8 +52,11 @@ def minion_game(string):
                 stuart += 1
     if (kevin > stuart):
         print("Kevin {}".format(kevin))
-    else:
+    elif:
         print("Stuart {}".format(stuart))
+    else:
+        print("Draw")
+        
     stop = timer()
     print(stop-start)
         
