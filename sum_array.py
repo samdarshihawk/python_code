@@ -30,8 +30,8 @@ def sum_2darray(arr):
     l = []
     for i in range(6):
         end_column = 3
-        for j in range(6):
-            d=np.array(a[i:end_row,j:end_column])
+        for j in range(6): # the nested for loop creates only 3X3 2D array
+            d=np.array(a[i:end_row,j:end_column]) 
             end_column += 1
             if(d.shape == (3L,3L)):
                 d[1,0] = 0
